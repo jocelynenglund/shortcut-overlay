@@ -1,0 +1,58 @@
+{
+  "name": "Event Modelling",
+  "settings": {
+    "position": "bottom-right",
+    "padding": 24,
+    "font_size": 20,
+    "display_ms": 1500,
+    "fg_color": "#ffffff",
+    "bg_color": "#222222"
+  },
+  "shortcuts": [
+    { "keys": ["shift", "slash"],       "label": "?",           "description": "Keyboard shortcuts" },
+    { "keys": ["slash"],                "label": "/",            "description": "Quick access" },
+
+    { "keys": ["up"],                   "label": "↑",            "description": "Navigate" },
+    { "keys": ["down"],                 "label": "↓",            "description": "Navigate" },
+    { "keys": ["left"],                 "label": "←",            "description": "Navigate / Page" },
+    { "keys": ["right"],                "label": "→",            "description": "Navigate / Page" },
+    { "keys": ["escape"],               "label": "Esc",          "description": "Exit / Close" },
+    { "keys": ["enter"],                "label": "Enter",        "description": "Select / Open" },
+
+    { "keys": ["backspace"],            "label": "Backspace",    "description": "Delete node" },
+    { "keys": ["delete"],               "label": "Delete",       "description": "Delete node" },
+    { "keys": ["space"],                "label": "Space",        "description": "Connect cells" },
+    { "keys": ["ctrl", "space"],        "label": "Ctrl+Space",   "description": "Remove incoming edges" },
+    { "keys": ["ctrl", "enter"],        "label": "Ctrl+Enter",   "description": "Open inline editor" },
+    { "keys": ["ctrl", "p"],            "label": "Ctrl+P",       "description": "Show all edges" },
+
+    { "keys": ["e"],                    "label": "E",            "description": "Add Event" },
+    { "keys": ["c"],                    "label": "C",            "description": "Add Command" },
+    { "keys": ["r"],                    "label": "R",            "description": "Add Read Model" },
+    { "keys": ["s"],                    "label": "S",            "description": "Add Spec / Note / Screen" },
+    { "keys": ["a"],                    "label": "A",            "description": "Add Automation" },
+    { "keys": ["d"],                    "label": "D",            "description": "Clear cell" },
+
+    { "keys": ["ctrl", "c"],            "label": "Ctrl+C",       "description": "Copy fields" },
+    { "keys": ["ctrl", "d"],            "label": "Ctrl+D",       "description": "Open Screen Designer" },
+    { "keys": ["ctrl", "e"],            "label": "Ctrl+E",       "description": "Eject node from cell" },
+
+    { "keys": ["shift", "equal"],       "label": "+",            "description": "Add row / Formula" },
+    { "keys": ["ctrl", "shift", "equal"], "label": "Ctrl++",     "description": "Add column" },
+    { "keys": ["ctrl", "minus"],        "label": "Ctrl+-",       "description": "Remove column" },
+
+    { "keys": ["g"],                    "label": "G",            "description": "Given" },
+    { "keys": ["w"],                    "label": "W",            "description": "When" },
+    { "keys": ["t"],                    "label": "T",            "description": "Then" },
+
+    { "keys": ["1"],                    "label": "1",            "description": "Pin spec 1" },
+    { "keys": ["2"],                    "label": "2",            "description": "Pin spec 2" },
+    { "keys": ["3"],                    "label": "3",            "description": "Pin spec 3" },
+    { "keys": ["4"],                    "label": "4",            "description": "Pin spec 4" },
+    { "keys": ["5"],                    "label": "5",            "description": "Pin spec 5" },
+    { "keys": ["6"],                    "label": "6",            "description": "Pin spec 6" },
+    { "keys": ["7"],                    "label": "7",            "description": "Pin spec 7" },
+    { "keys": ["8"],                    "label": "8",            "description": "Pin spec 8" },
+    { "keys": ["9"],                    "label": "9",            "description": "Pin spec 9" }
+  ]
+}

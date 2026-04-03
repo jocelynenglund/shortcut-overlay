@@ -1,0 +1,22 @@
+{
+  "name": "Default",
+  "settings": {
+    "position": "bottom-right",
+    "padding": 24,
+    "font_size": 20,
+    "display_ms": 1500,
+    "fg_color": "#ffffff",
+    "bg_color": "#222222"
+  },
+  "shortcuts": [
+    { "keys": ["ctrl", "s"],            "label": "Ctrl+S",       "description": "Save" },
+    { "keys": ["ctrl", "z"],            "label": "Ctrl+Z",       "description": "Undo" },
+    { "keys": ["ctrl", "shift", "z"],   "label": "Ctrl+Shift+Z", "description": "Redo" },
+    { "keys": ["ctrl", "c"],            "label": "Ctrl+C",       "description": "Copy" },
+    { "keys": ["ctrl", "v"],            "label": "Ctrl+V",       "description": "Paste" },
+    { "keys": ["ctrl", "a"],            "label": "Ctrl+A",       "description": "Select all" },
+    { "keys": ["ctrl", "shift", "t"],   "label": "Ctrl+Shift+T", "description": "Reopen tab" },
+    { "keys": ["alt", "tab"],           "label": "Alt+Tab",      "description": "Switch window" },
+    { "keys": ["super", "d"],           "label": "Super+D",      "description": "Show desktop" }
+  ]
+}
