@@ -80,7 +80,7 @@ def normalise_code(code):
     entry = ecodes.keys.get(code)
     if entry is None:
         return None
-    raw = entry[0] if isinstance(entry, list) else entry
+    raw = entry[0] if isinstance(entry, (list, tuple)) else entry
     name = raw.removeprefix("KEY_").lower()
     name = _MODIFIER_ALIASES.get(name, name)
     return _DVORAK_REMAP.get(name, name)
