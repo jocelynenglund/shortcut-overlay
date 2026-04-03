@@ -235,4 +235,7 @@ if __name__ == "__main__":
     listener = ShortcutListener(overlay, watched)
     listener.start(debug=debug)
     print("Shortcut overlay running. Press Ctrl+C in this terminal to quit.")
-    overlay.run()
+    try:
+        overlay.run()
+    except KeyboardInterrupt:
+        pass
